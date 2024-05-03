@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:task_manger/features/ui/tasks_page/tasks_page.dart';
 
 import 'core/app_injector.dart';
-import 'features/ui/home/tasks_page.dart';
 import 'user_default_firebase_options.dart';
 
 Future<void> main() async {
